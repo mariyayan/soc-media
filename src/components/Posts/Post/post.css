@@ -1,0 +1,66 @@
+.post {
+    margin-bottom: 30px;
+    padding: 10px 30px;
+}
+
+.user-data .flex-container,
+.user-repost-data .flex-container {
+    align-items: center;
+}
+
+.post-user-picture {
+    margin: 0 8px 0 20px;
+}
+
+.small-user-picture {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.post-user-name {
+    font-size: 21px;
+}
+
+.time {
+    display: block;
+    margin: 10px 0 15px 0;
+    font-size: 14px;
+}
+
+.user-repost-data {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.repost-user-picture {
+    margin: 0 8px 0 10px;
+}
+
+.repost-icon {
+    margin-right: 15px;
+}
+
+.text {
+    line-height: 19px;
+}
+
+.post-pictures {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    margin: 0 15px 15px 0;
+}
+
+.post-btn {
+    margin-top: 20px;
+    padding: 7px 13px;
+}
+
+.post-btn:first-child {
+    margin-right: 10px;
+}

@@ -1,0 +1,55 @@
+.nested-form-title {
+    width: 150px;
+    color: inherit;
+    font-weight: bold;
+    padding-left: 40px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.nested-form-wrapper .form {
+    height: 0;
+    opacity: 0;
+    padding: 0;
+    width: 40%;
+    background-color: white;
+    margin: 0;
+}
+
+.nested-form-wrapper .form-fieldset,
+.nested-form-wrapper .input-wrapper,
+.nested-form-wrapper .btn {
+    height: inherit;
+}
+
+.nested-form-wrapper .input-wrapper {
+    width: 90%;
+}
+
+.nested-form-wrapper .form-input {
+    width: 70%;
+}
+
+.nested-form-wrapper .btn {
+    padding: 4px 17px;
+    font-size: 18px;
+}
+
+.nested-form-wrapper .btn:hover {
+    background-color: white;
+    color: rgb(200, 191, 231);
+}
+
+.nested-form-wrapper .show {
+    height: auto;
+    opacity: 1;
+    padding: 15px 0;
+}
+
+
+@media (max-width: 1023px) {
+
+    .nested-form-wrapper .form {
+        width: 100%;
+    }
+}

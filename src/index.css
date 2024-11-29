@@ -1,0 +1,100 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+
+.margin-style {
+    margin: 30px 35px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    border: 1px solid rgb(200, 191, 231);
+    border-radius: 9px;
+}
+
+.user-picture {
+    border: solid 1px rgb(176, 164, 221);
+    overflow: hidden;
+}
+
+.medium-user-picture {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+
+.bg-style {
+    background-color: rgb(200, 191, 231);
+    padding: 20px;
+    color: white;
+}
+
+.bg-style .link {
+    color: inherit;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(200, 191, 231);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(176, 164, 221);
+}
+
+.transition-style {
+    transition: transform 300ms linear;
+}
+
+.transition-style:hover {
+    transform: scale(1.1);
+}
+
+.link {
+    color: rgb(200, 191, 231);
+}
+
+.link:hover {
+    color: rgb(176, 164, 221);
+}
+
+
+
+@media (max-width: 767px) {
+    .margin-style {
+        margin: 30px 20px;
+    }
+
+    .flex-column {
+        flex-direction: column
+    }
+}

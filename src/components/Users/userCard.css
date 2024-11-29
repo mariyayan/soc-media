@@ -1,0 +1,68 @@
+.userCard {
+    width: 80%;
+    align-items: center;
+    padding: 10px 60px;
+    margin: 0 auto 30px auto;
+}
+
+.userCard,
+.userPicture {
+    border: 1px solid rgb(200, 191, 231);
+}
+
+.user-link {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.links-container .link:first-child {
+    margin-right: 20px;
+}
+
+.userCard .subscription-btn {
+    margin-left: auto;
+    padding: 8px 18px;
+    font-size: 16px;
+}
+
+.user-card-data {
+    margin-left: 20px;
+}
+
+
+@media (max-width: 767px) {
+
+    .userCard {
+        padding: 20px 10px;
+    }
+
+    .user-card-data {
+        margin: 20px 0 30px 0;
+    }
+
+    .user-link-container {
+        text-align: center;
+    }
+
+    .user-card-btn {
+        margin: 35px 0 0 0;
+    }
+
+    .userCard .subscription-btn {
+        margin-left: 0;
+    }
+
+}
+
+
+@media (max-width: 479px) {
+
+    .userCard .link {
+        display: block;
+        text-align: center;
+    }
+
+    .links-container .link:first-child{
+        margin-right: 0;
+    }
+}

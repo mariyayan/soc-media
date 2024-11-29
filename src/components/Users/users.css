@@ -1,0 +1,28 @@
+.profile-link {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.users-wrapper .form {
+    border: none;
+    margin-top: 0;
+}
+
+.users-wrapper .form-input {
+    width: 70%;
+}
+
+.users-wrapper .form .btn {
+    padding: 4px 21px;
+}
+
+
+@media (max-width: 767px) {
+    .users-wrapper .form .form-input {
+        width: 80%;
+    }
+
+.users-wrapper .form {
+    padding: 75px 0;
+}
+}

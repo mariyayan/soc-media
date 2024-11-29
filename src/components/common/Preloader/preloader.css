@@ -1,0 +1,31 @@
+.preloader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background: rgb(176, 164, 221);
+    background: -moz-linear-gradient(left, rgb(176, 164, 221) 10%, rgba(164, 166, 221, 0) 42%);
+    background: -webkit-linear-gradient(left, rgb(176, 164, 221) 10%, rgba(164, 166, 221, 0) 42%);
+    background: -o-linear-gradient(left, rgb(176, 164, 221) 10%, rgba(164, 166, 221, 0) 42%);
+    background: -ms-linear-gradient(left, rgb(176, 164, 221) 10%, rgba(164, 166, 221, 0) 42%);
+    background: linear-gradient(to right, rgb(176, 164, 221) 10%, rgba(164, 166, 221, 0) 42%);
+    -webkit-animation: loader 1.4s infinite linear;
+    animation: loader 1.4s infinite linear;
+}
+
+@-webkit-keyframes loader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

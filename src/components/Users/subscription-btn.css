@@ -1,0 +1,8 @@
+.subscribed {
+    background-color: white;
+    color: rgb(200, 191, 231);
+}
+
+.subscribed:hover {
+    color: white;
+}

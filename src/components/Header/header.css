@@ -1,0 +1,60 @@
+.header {
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.header-block:nth-of-type(1) {
+    width: 70%;
+}
+
+.header-block:nth-of-type(2) {
+    width: 20%;
+}
+
+.header-block:nth-of-type(2) .link {
+    display: block;
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.header-links {
+    margin-top: 70px;
+}
+
+.header-link,
+.header .logout-link {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.header-links .header-link:first-child {
+    margin-right: 30px;
+}
+
+.header .subscription-btn {
+    border-color: white;
+    padding: 12px 21px;
+    font-size: 17px;
+}
+
+.user-header-info:nth-of-type(2) {
+    margin: 30px 0;
+}
+
+
+@media (max-width: 767px) {
+
+    .header-block:nth-of-type(1),
+    .header-block:nth-of-type(2)
+     {
+        width: 100%;
+    }
+
+    .header-links {
+        margin-bottom: 15px;
+    }
+
+    .header-links .header-link:first-child {
+    margin-bottom: 15px;
+}
+}

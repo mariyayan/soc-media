@@ -1,0 +1,37 @@
+.error-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 200px;
+}
+
+.error-header {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.error-wrapper .link {
+    font-size: 20px;
+}
+
+@media (max-width: 1023px) {
+
+    .error-wrapper {
+        padding: 150px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .error-header {
+        font-size: 30px;
+    }
+
+    .error-wrapper {
+        padding: 100px 40px;
+    }
+}

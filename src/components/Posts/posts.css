@@ -1,0 +1,17 @@
+.posts {
+    margin-bottom: 40px;
+}
+
+.posts .nested-form-title {
+    color: rgb(176, 164, 221);
+}
+
+.posts .nested-form-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.post .clicked-btn {
+    background-color: rgb(176, 164, 221);
+    cursor: auto;
+}

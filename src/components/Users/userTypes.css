@@ -1,0 +1,28 @@
+.userTypes {
+    margin: 20px auto 0 auto;
+    width: 70%;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.active-user-type {
+    color: rgb(98, 72, 187);
+    font-weight: bold;
+}
+
+
+@media (max-width: 767px) {
+
+    .userTypes {
+        align-items: center;
+    }
+
+    .userTypes .link-wrapper:nth-of-type(2) {
+        margin: 10px 0;
+    }
+
+}
+
+.active-user-type {
+    color: rgb(98, 72, 187);
+}
